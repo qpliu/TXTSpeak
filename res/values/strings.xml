@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TXTSpeak</string>
+    <string name="enable_title">Enable</string>
+    <string name="enable_summary">Enable TXTSpeak</string>
+    <string name="contacts_title">Contacts only</string>
+    <string name="contacts_summary">Speak only for messages from contacts</string>
+</resources>

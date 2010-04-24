@@ -1,0 +1,7 @@
+TXTSpeak is a simple Android application that invokes text-to-speech
+on incoming SMS messages.
+
+It only speaks messages from contacts unless configured otherwise.  It
+does not speak messages from contacts that are sent to voicemail.
+
+TXTSpeak requires Android 2.1.

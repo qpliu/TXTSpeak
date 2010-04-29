@@ -5,4 +5,5 @@
     <string name="enable_summary">Enable TXTSpeak</string>
     <string name="contacts_title">Contacts only</string>
     <string name="contacts_summary">Speak only for messages from contacts</string>
+    <string name="notification">Text message from %s, %s</string>
 </resources>

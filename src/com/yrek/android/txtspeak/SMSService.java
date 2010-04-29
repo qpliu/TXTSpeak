@@ -94,8 +94,6 @@ public class SMSService extends IntentService implements TextToSpeech.OnInitList
             }
         }
         Log.d("SMSService","sender="+sender);
-        StringBuffer sb = new StringBuffer();
-        sb.append("From ").append(sender).append(", ").append(sms.getDisplayMessageBody());
-        tts.speak(sb.toString(), TextToSpeech.QUEUE_ADD, params);
+        tts.speak(getResources().getString(R.string.notification, sender, sms.getDisplayMessageBody()), TextToSpeech.QUEUE_ADD, params);
     }
 }
